@@ -1,0 +1,32 @@
+{
+  "name": "clean-genie",
+  "version": "1.0.0",
+  "description": "AI-Powered Digital Cleaning Assistant - Automate your messy laptop cleanup",
+  "main": "src/cli.js",
+  "type": "module",
+  "bin": {
+    "clean-genie": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:properties": "vitest run properties",
+    "cli": "node src/cli.js"
+  },
+  "keywords": [
+    "file-organizer",
+    "duplicate-finder",
+    "junk-cleaner",
+    "automation",
+    "cli"
+  ],
+  "author": "Kiro Heroes Challenge Participant",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4",
+    "fast-check": "^3.15.0"
+  }
+}
